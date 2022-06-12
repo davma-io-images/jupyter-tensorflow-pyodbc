@@ -1,18 +1,40 @@
-## 1. Jupyter-TensorFlow image with pyodbc == 4.0.30
+## Jupyter-TensorFlow image with pyodbc == 4.0.30
 
 [![Build and push images](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml)
 
-## 2. Requirements
+## 1. Requirements
 
 1. [Docker](https://docs.docker.com/get-docker/)
 
-## 3. Docker pull
+## 2. Docker pull
 
 You can download the full image from [Docker Hub](https://hub.docker.com/) with the following command.
+
+Jupyter-TensorFlow latest [official image](https://hub.docker.com/r/jupyter/tensorflow-notebook/tags?page=1&name=python) with pyodbc == 4.0.30
 
 ````
 docker pull davma/jupyter-tensorflow-pyodbc:latest
 ````
+
+Jupyter-TensorFlow python:3.10 [official image](https://hub.docker.com/r/jupyter/tensorflow-notebook/tags?page=1&name=python) with pyodbc == 4.0.30
+````
+docker pull davma/jupyter-tensorflow-pyodbc:3.10
+````
+Jupyter-TensorFlow python:3.9 [official image](https://hub.docker.com/r/jupyter/tensorflow-notebook/tags?page=1&name=python) with pyodbc == 4.0.30
+````
+docker pull davma/jupyter-tensorflow-pyodbc:3.9
+````
+Jupyter-TensorFlow python:3.8 [official image](https://hub.docker.com/r/jupyter/tensorflow-notebook/tags?page=1&name=python) with pyodbc == 4.0.30
+````
+docker pull davma/jupyter-tensorflow-pyodbc:3.8
+````
+
+## 3. Access to Jupyter
+
+Visiting ``http://<hostname>:8888/?token=<token>`` in a browser loads JupyterLab, where:
+
+- hostname is the name of the computer running Docker
+- token is the secret token printed in the console.
 
 ## 4. Image build
 
@@ -30,6 +52,9 @@ docker build -t jupyter-tensorflow-pyodbc .
 
 [TensorFlow](https://www.tensorflow.org/)
 
-[docker TensorFlow](https://www.tensorflow.org/install/docker)
+[Docker TensorFlow](https://www.tensorflow.org/install/docker)
 
 [Microsoft ODBC 17](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017)
+
+
+
