@@ -1,6 +1,6 @@
-## 1. Introduction
+## 1. Jupyter-TensorFlow image with pyodbc == 4.0.30
 
-Jupyter-TensorFlow image with pyodbc == 4.0.30
+[![Build and push images](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml)
 
 ## 2. Requirements
 
