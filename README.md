@@ -1,6 +1,10 @@
 ## Jupyter-TensorFlow image with pyodbc == 4.0.30
 
+</br>
+
 [![Build and push images](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-tensorflow-pyodbc?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-tensorflow-pyodbc)  
 
 ## 1. Requirements
 
@@ -41,7 +45,7 @@ Visiting ``http://<hostname>:8888/?token=<token>`` in a browser loads JupyterLab
 You can run the image build with the following commands
 
 ````
-git clone https://github.com/davma-io-images/tensorflow-pyodbc.git
+git clone https://github.com/davma-io-images/jupyter-tensorflow-pyodbc.git
 cd jupyter-tensorflow-pyodbc
 docker build -t jupyter-tensorflow-pyodbc .
 ````

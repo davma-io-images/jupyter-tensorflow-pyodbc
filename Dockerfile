@@ -10,7 +10,7 @@ RUN apt-get install curl -y
 
 RUN curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
 
-#Ubuntu 21.04
+#Ubuntu 21.04 / no supported Ubuntu 22.04
 RUN curl https://packages.microsoft.com/config/ubuntu/21.04/prod.list > /etc/apt/sources.list.d/mssql-release.list
 
 RUN apt-get update
