@@ -21,8 +21,8 @@ jobs:
             tag: '3.9'
           - base: jupyter/tensorflow-notebook:python-3.8.8
             tag: '3.8'
-          - base: jupyter/tensorflow-notebook:latest
-            tag: latest
+#           - base: jupyter/tensorflow-notebook:latest   # no supported Ubuntu 22.04
+#             tag: latest
 
     steps:
       -
