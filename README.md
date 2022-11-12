@@ -1,5 +1,7 @@
 ## Jupyter-TensorFlow image with pyodbc == 4.0.30
 
+This repository is deprecated. You can find the latest versions for Jupyter-TensorFlow image with pyodbc in the following link: https://github.com/davma-io-images/jupyterlab
+
 </br>
 
 [![Build and push images](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml)
